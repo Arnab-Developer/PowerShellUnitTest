@@ -1,12 +1,12 @@
 BeforeAll {
-	. "$PSScriptroot\Service.ps1"
+    . "$PSScriptroot\Service.ps1"
 
-	$service = [Service]::new()
+    $service = [Service]::new()
 }
 
 Describe "ServiceTests" {
-	It "Can_GetMessage_ReturnsProperMessage" {
-		$message = $service.GetMessage("Test User 1")
-		$message | Should -Be 'Hello Test User 1'
-	}
+    It "Can_GetMessage_ReturnsProperMessage" {
+        $message = $service.GetMessage("Test User 1")
+        $message | Should -Be 'Hello Test User 1'
+    }
 }
