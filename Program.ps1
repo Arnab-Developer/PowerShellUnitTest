@@ -1,5 +1,5 @@
 param(
-    [Parameter(Mandetory = $true)]
+    [Parameter(Mandatory = $true)]
     [ValidateNotNullOrEmpty]
     [string] $Name
 )
