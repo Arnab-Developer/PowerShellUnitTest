@@ -1,7 +1,8 @@
 param(
     [Parameter(Mandatory = $true)]
     [ValidateNotNullOrEmpty]
-    [string] $Name
+    [string]
+    $Name
 )
 
 . "$PSScriptroot\Service.ps1"
