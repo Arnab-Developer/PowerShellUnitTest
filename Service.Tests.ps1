@@ -1,6 +1,5 @@
 BeforeAll {
     . "$PSScriptroot\Service.ps1"
-
     $service = [Service]::new()
 }
 
