@@ -22,3 +22,7 @@ jobs:
     - name: Test
       shell: pwsh
       run: ./RunTests.ps1
+
+    - name: App run
+      shell: pwsh
+      run: ./Program.ps1 "Jon Doe"
